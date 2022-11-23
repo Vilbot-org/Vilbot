@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <img src="https://user-images.githubusercontent.com/35277540/202900919-37b3a360-7fc2-4fce-a08b-f23e4b0f748d.png" align="center">
 <br>
@@ -98,12 +99,47 @@ To have all your complete environment necessary for Vilbot to work correctly, th
 This file in addition to creating a container for the bot, it will also create a database with MongoDB and a dashboard to manage Mongo with Mongo_express
 
 To start the enviroment use the following command
+=======
+# Vilbot
+
+## Docker
+
+### Docker image
+
+Build the image
+
+```Shell
+docker build -t vilbot .
+```
+
+#### Run the image
+
+Run the container in background
+
+```Shell
+docker run -d vilbot
+```
+
+Run in interaction mode
+
+```Shell
+docker run -it vilbot
+```
+
+### Docker compose
+
+To start the enviroment
+>>>>>>> bdcec82e2611802ff5e84f96fbf07d1f680d34e4
 
 ```Shell
 docker-compose up -d
 ```
 
+<<<<<<< HEAD
 If any changes are made on the code run (only for development)
+=======
+If any changes are made on the code
+>>>>>>> bdcec82e2611802ff5e84f96fbf07d1f680d34e4
 
 ```Shell
 docker-compose up -d --build
@@ -114,6 +150,7 @@ To destroy stop and destroy all containers of this enviroment
 ```Shell
 docker-compose down
 ```
+<<<<<<< HEAD
 
 # Author
 
@@ -128,3 +165,5 @@ You can invite the Vilbot to join your server or you can use the Vilbot code to 
 > Important: You will have to give the necessary credits to this repository in case of creating a new bot using Vilbot as a base.
 
 Please see the [LICENSE](./LICENCE) file
+=======
+>>>>>>> bdcec82e2611802ff5e84f96fbf07d1f680d34e4
